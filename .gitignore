@@ -1,0 +1,21 @@
+# Local overrides — personal tweaks that shouldn't be shared
+.claude/settings.local.json
+.cursor/settings.local.json
+
+# Secrets accidentally dropped into prompts or hooks
+*.env
+.env*
+secrets/
+
+# Reference docs
+.reference/
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# If anyone starts adding runnable scripts with build artifacts
+node_modules/
+__pycache__/
+*.pyc
+dist/
